@@ -4,31 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PuigcerverJoan-SAA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/ud3/cotxes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introduccio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introduccio/introduccio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/covariancia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/estadistica_basica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/exemple_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/normal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/quantils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/exercises/ex3_normal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud3/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud3/examples/exemples_pandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud3/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud3/exercises/pandas_ex1.py" afterDir="false" />
+    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="ud3: plotnine">
+      <change afterPath="$PROJECT_DIR$/files/ud3/athlete_events.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud3/examples/analisi_visual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud3/examples/preparacio_adults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,36 +37,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.covariancia.executor": "Run",
-    "Python.estadistica_basica.executor": "Run",
-    "Python.ex1.executor": "Run",
-    "Python.ex3_normal.executor": "Run",
-    "Python.exemple_python.executor": "Run",
-    "Python.exemples_pandas.executor": "Run",
-    "Python.introduccio.executor": "Run",
-    "Python.normal.executor": "Run",
-    "Python.quantils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud2/examples",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.analisi_visual.executor&quot;: &quot;Run&quot;,
+    &quot;Python.covariancia.executor&quot;: &quot;Run&quot;,
+    &quot;Python.estadistica_basica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex3_normal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemple_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemples_pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.introduccio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.normal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotnine_ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotnine_ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotnine_ex3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotnine_ex4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotnine_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preparacio_adults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quantils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud3/exercises&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3\exercises" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud2\examples" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud2\examples" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3\examples" />
-      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.conjunts">
+    <configuration name="analisi_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PuigcerverJoan-SAA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud3/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud3/examples/analisi_visual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conjunts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PuigcerverJoan-SAA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud3/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud3/examples/conjunts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.conjunts" />
+        <item itemvalue="Python.analisi_visual" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -103,9 +144,22 @@
       <option name="presentableId" value="Default" />
       <updated>1728325761845</updated>
     </task>
+    <task id="LOCAL-00001" summary="ud3: plotnine">
+      <option name="closed" value="true" />
+      <created>1732121152435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732121152435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ud3: plotnine" />
+    <option name="LAST_COMMIT_MESSAGE" value="ud3: plotnine" />
   </component>
 </project>

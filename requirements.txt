@@ -2,3 +2,5 @@ pandas
 numpy
 plotnine
 scikit-learn
+matplotlib
+seaborn
