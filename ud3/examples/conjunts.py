@@ -1,7 +1,10 @@
 import pandas as pd
 
+from sklearn.model_selection import train_test_split
+
 
 df = pd.read_csv('../../files/ud3/adult.data.csv')
+
 df_shuffled = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 train_size = 0.7
@@ -24,7 +27,6 @@ print(f'Validation set: {p_validation_df.shape}')
 print(f'Test set: {p_test_df.shape}')
 print()
 
-from sklearn.model_selection import train_test_split
 
 sk_train_df, val_test_df = train_test_split(df, test_size=0.3, random_state=42)
 sk_validation_df, sk_test_df = train_test_split(val_test_df, test_size=0.5, random_state=42)

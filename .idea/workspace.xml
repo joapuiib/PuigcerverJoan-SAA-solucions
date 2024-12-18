@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="ud3: plotnine">
+    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="ud3: conjunts">
       <change afterPath="$PROJECT_DIR$/files/ud3/athlete_events.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ud3/examples/analisi_visual.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ud3/examples/preparacio_adults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud4/arbres_decissio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud4/metriques_regressio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud4/regressio_lineal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud4/regressio_polinomica.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ud3/examples/conjunts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ud3/examples/conjunts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +42,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.analisi_visual.executor&quot;: &quot;Run&quot;,
-    &quot;Python.covariancia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.estadistica_basica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3_normal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exemple_python.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exemples_pandas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.introduccio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.normal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotnine_ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotnine_ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotnine_ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotnine_ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotnine_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.preparacio_adults.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quantils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud3/exercises&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.analisi_visual.executor": "Run",
+    "Python.arbres_decissio.executor": "Run",
+    "Python.conjunts.executor": "Run",
+    "Python.covariancia.executor": "Run",
+    "Python.estadistica_basica.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex3_normal.executor": "Run",
+    "Python.exemple_python.executor": "Run",
+    "Python.exemples_pandas.executor": "Run",
+    "Python.introduccio.executor": "Run",
+    "Python.metriques_regressio.executor": "Run",
+    "Python.normal.executor": "Run",
+    "Python.plotnine_ex1.executor": "Run",
+    "Python.plotnine_ex2.executor": "Run",
+    "Python.plotnine_ex3.executor": "Run",
+    "Python.plotnine_ex4.executor": "Run",
+    "Python.plotnine_example.executor": "Run",
+    "Python.preparacio_adults.executor": "Run",
+    "Python.quantils.executor": "Run",
+    "Python.regressio_lineal.executor": "Run",
+    "Python.regressio_polinomica.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud4",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud4" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3\exercises" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud2\examples" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
@@ -76,8 +87,8 @@
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conjunts">
-    <configuration name="analisi_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.arbres_decissio">
+    <configuration name="arbres_decissio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud3/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud3/examples/analisi_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/arbres_decissio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,10 +132,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="metriques_regressio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PuigcerverJoan-SAA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/metriques_regressio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regressio_lineal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PuigcerverJoan-SAA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/regressio_lineal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regressio_polinomica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PuigcerverJoan-SAA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/regressio_polinomica.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arbres_decissio" />
+        <item itemvalue="Python.regressio_polinomica" />
+        <item itemvalue="Python.regressio_lineal" />
+        <item itemvalue="Python.metriques_regressio" />
         <item itemvalue="Python.conjunts" />
-        <item itemvalue="Python.analisi_visual" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732121152435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ud3: conjunts">
+      <option name="closed" value="true" />
+      <created>1733327055006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733327055006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -160,6 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ud3: plotnine" />
-    <option name="LAST_COMMIT_MESSAGE" value="ud3: plotnine" />
+    <MESSAGE value="ud3: conjunts" />
+    <option name="LAST_COMMIT_MESSAGE" value="ud3: conjunts" />
   </component>
 </project>
