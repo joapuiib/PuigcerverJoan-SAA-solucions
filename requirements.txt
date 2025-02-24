@@ -4,3 +4,4 @@ plotnine
 scikit-learn
 matplotlib
 seaborn
+mlxtend
