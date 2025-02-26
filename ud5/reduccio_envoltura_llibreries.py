@@ -1,16 +1,10 @@
 import pandas as pd
-import numpy as np
 
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 
-import statsmodels.api as sm
-
 from mlxtend.feature_selection import SequentialFeatureSelector as SFS
 from sklearn.linear_model import LinearRegression
-
-from mlxtend.plotting import plot_sequential_feature_selection as plot_sfs
-import matplotlib.pyplot as plt
 
 california = fetch_california_housing()
 X = pd.DataFrame(california.data, columns=california.feature_names)
