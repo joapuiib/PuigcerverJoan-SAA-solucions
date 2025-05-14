@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="ud4: regressio">
-      <change afterPath="$PROJECT_DIR$/files/ud3/athlete_events.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/ud5/kung_san.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud2/examples/contrast_hipotesi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud4/descens_gradient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud5/analisi_normalitat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ud5/normalitzacio.py" afterDir="false" />
+    <list default="true" id="94b23803-ea33-4ae4-a1df-5c9eca7fac0a" name="Changes" comment="validacio i over/under fitting">
+      <change afterPath="$PROJECT_DIR$/ud6/knn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud6/metriques.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud6/multiclasse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud6/precission_recall_comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud6/svc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ud6/vectorizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +53,12 @@
     "Python.ex3_normal.executor": "Run",
     "Python.exemple_python.executor": "Run",
     "Python.exemples_pandas.executor": "Run",
+    "Python.fitting.executor": "Run",
     "Python.introduccio.executor": "Run",
+    "Python.knn.executor": "Run",
+    "Python.metriques.executor": "Run",
     "Python.metriques_regressio.executor": "Run",
+    "Python.multiclasse.executor": "Run",
     "Python.normal.executor": "Run",
     "Python.normalitzacio.executor": "Run",
     "Python.plotnine_ex1.executor": "Run",
@@ -63,35 +66,44 @@
     "Python.plotnine_ex3.executor": "Run",
     "Python.plotnine_ex4.executor": "Run",
     "Python.plotnine_example.executor": "Run",
+    "Python.precission_recall_comparison.executor": "Run",
     "Python.preparacio_adults.executor": "Run",
     "Python.quantils.executor": "Run",
+    "Python.reduccio_envoltura.executor": "Run",
+    "Python.reduccio_envoltura_llibreries.executor": "Run",
+    "Python.reduccio_extraccio (1).executor": "Run",
+    "Python.reduccio_filtres.executor": "Run",
+    "Python.reduccio_pca.executor": "Run",
     "Python.regressio_lineal.executor": "Run",
     "Python.regressio_polinomica.executor": "Run",
+    "Python.svc.executor": "Run",
+    "Python.validacio.executor": "Run",
+    "Python.vectorizer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud5",
+    "last_opened_file_path": "C:/Users/jpuigcerver/PycharmProjects/PuigcerverJoan-SAA/ud6",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud6" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud5" />
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud5" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud2\examples" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud4" />
-      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3\exercises" />
-      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud5" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\files\ud3" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud2\examples" />
       <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3\examples" />
-      <recent name="C:\Users\jpuigcerver\PycharmProjects\PuigcerverJoan-SAA\ud3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.normalitzacio">
-    <configuration name="analisi_normalitat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.svc">
+    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud5/analisi_normalitat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud6/knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arbres_decissio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiclasse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/arbres_decissio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud6/multiclasse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contrast_hipotesi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="precission_recall_comparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud2/examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud2/examples/contrast_hipotesi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud6/precission_recall_comparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="descens_gradient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="svc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud4/descens_gradient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud6/svc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="normalitzacio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vectorizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PuigcerverJoan-SAA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ud6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud5/normalitzacio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ud6/vectorizer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.normalitzacio" />
-        <item itemvalue="Python.analisi_normalitat" />
-        <item itemvalue="Python.contrast_hipotesi" />
-        <item itemvalue="Python.descens_gradient" />
-        <item itemvalue="Python.arbres_decissio" />
+        <item itemvalue="Python.svc" />
+        <item itemvalue="Python.knn" />
+        <item itemvalue="Python.multiclasse" />
+        <item itemvalue="Python.vectorizer" />
+        <item itemvalue="Python.precission_recall_comparison" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +263,63 @@
       <option name="project" value="LOCAL" />
       <updated>1734537603823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ud5: contrast i normalitzacio">
+      <option name="closed" value="true" />
+      <created>1739377451530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739377451530</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ud5: reduccio dimensionalitat">
+      <option name="closed" value="true" />
+      <created>1739980927136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980927136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ud5: reduccio dimensionalitat wrapper">
+      <option name="closed" value="true" />
+      <created>1740425898462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740425898462</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ud5: reduccio dimensionalitat extraccio">
+      <option name="closed" value="true" />
+      <created>1740584377943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740584377943</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ud5: reduccio dimensionalitat extraccio">
+      <option name="closed" value="true" />
+      <created>1740584513775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740584513775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ud5: reduccio exercici">
+      <option name="closed" value="true" />
+      <created>1740589044421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740589044421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="validacio i over/under fitting">
+      <option name="closed" value="true" />
+      <created>1741797132766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741797132766</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,6 +329,22 @@
     <MESSAGE value="ud3: plotnine" />
     <MESSAGE value="ud3: conjunts" />
     <MESSAGE value="ud4: regressio" />
-    <option name="LAST_COMMIT_MESSAGE" value="ud4: regressio" />
+    <MESSAGE value="ud5: contrast i normalitzacio" />
+    <MESSAGE value="ud5: reduccio dimensionalitat" />
+    <MESSAGE value="ud5: reduccio dimensionalitat wrapper" />
+    <MESSAGE value="ud5: reduccio dimensionalitat extraccio" />
+    <MESSAGE value="ud5: reduccio exercici" />
+    <MESSAGE value="validacio i over/under fitting" />
+    <option name="LAST_COMMIT_MESSAGE" value="validacio i over/under fitting" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ud6/multiclasse.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
